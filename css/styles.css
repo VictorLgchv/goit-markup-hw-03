@@ -1,0 +1,264 @@
+/* Додаємо змінні */
+:root {
+  --first-text-color: #757575;
+  --second-text-color: #2196f3;
+  --third-text-color: #ffffff;
+  --fourth-text-color: #000000;
+  --fifth-text-color: #2f303a;
+  --sixth-text-color: #f5f4fa;
+  --headlines-color: #212121;
+}
+/* Скидаємо базові налаштування */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--first-text-color);
+}
+/* pages */
+.page {
+}
+.page__hero {
+}
+.page__feature {
+}
+.page__doing {
+}
+.page__team {
+}
+/* header */
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--second-text-color);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.menu__logo span {
+  color: var(--fourth-text-color);
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+  text-decoration: none;
+  color: var(--headlines-color);
+}
+.menu__link:hover,
+.menu__link:focus {
+  color: var(--second-text-color);
+}
+.menu__link.active {
+  color: var(--second-text-color);
+}
+.header__contacts {
+}
+.contacts {
+}
+.contacts__item {
+}
+.contacts__link {
+  text-decoration: none;
+  color: var(--first-text-color);
+}
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--second-text-color);
+}
+/* hero */
+.hero {
+  background-color: var(--fifth-text-color);
+}
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
+  text-transform: uppercase;
+}
+.hero__button {
+  background-color: var(--second-text-color);
+  color: var(--third-text-color);
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+.hero__button:hover,
+.hero__button:focus {
+  color: var(--second-text-color);
+  background-color: var(--third-text-color);
+}
+/* page feature */
+
+.feature {
+}
+.feature__title {
+}
+.feature__list {
+}
+.list-feature {
+}
+.list-feature__item {
+}
+.list-feature__title {
+  text-transform: uppercase;
+  color: var(--headlines-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.list-feature__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* doing */
+
+.doing {
+}
+.doing__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--headlines-color);
+}
+/* team */
+
+.team {
+  background-color: var(--sixth-text-color);
+}
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--headlines-color);
+}
+.team__list {
+}
+.team__item {
+}
+.team-item__image {
+}
+.team-item__title {
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--headlines-color);
+}
+.team-item__text {
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer__logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--second-text-color);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer__logo span {
+  color: var(--third-text-color);
+}
+.footer__address {
+  font-style: normal;
+}
+.address {
+}
+.address__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.address__list {
+}
+.address__item {
+}
+.address__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address__link:hover,
+.address__link:focus {
+  color: var(--second-text-color);
+}
+/*! PAGE PORTFOLIO */
+
+.page {
+}
+
+.portfolio {
+}
+.portfolio-buttons__list {
+}
+.portfolio-buttons__item {
+}
+.portfolio-buttons__button {
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--sixth-text-color);
+  cursor: pointer;
+  color: var(--headlines-color);
+  font-family: inherit;
+}
+.portfolio-buttons__button:hover,
+.portfolio-buttons__button:focus {
+  background-color: var(--second-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--third-text-color);
+}
+.portfolio__list {
+}
+.potfolio__item {
+}
+.potfolio__image {
+}
+.potfolio__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--headlines-color);
+}
+.portfolio__text {
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
